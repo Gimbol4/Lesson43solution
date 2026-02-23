@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{debf9eaf-5c41-422b-b56a-bc4dcf886363}</ProjectGuid>
-    <RootNamespace>task01project</RootNamespace>
+    <ProjectGuid>{e0481fe8-ab68-413e-b216-b45d3e372934}</ProjectGuid>
+    <RootNamespace>Test02project</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Test01project</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,13 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="logic.h" />
-    <ClInclude Include="util.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="logic.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="util.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

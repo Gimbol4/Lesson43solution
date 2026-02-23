@@ -32,9 +32,5 @@ int main() {
 	print("count of searching element is "
 		+ to_string(count_element(array, length, value)) + "\n");
 
-
-
-
-
 	return 0;
 }

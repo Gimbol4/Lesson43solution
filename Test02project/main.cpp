@@ -15,6 +15,6 @@ int main() {
 		count++;
 	}
 
-	cout << "Result count: " << count; 
+	cout << "Result count: " << count;  
 	return 0;
 }

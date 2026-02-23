@@ -4,8 +4,8 @@ int main() {
 	int array[DEFAULT_SIZE];
 
 	int length;
-	int a = -20, b = 20;
-	
+	int a = 0, b = 20;
+
 	do {
 		cout << "Input size of array: ";
 		cin >> length;
@@ -14,13 +14,27 @@ int main() {
 	init_random(array, length, a, b);
 
 	print("Result array:\n");
-	print(convert(array, length));
+	print(convert(array, length) + "\n");
 
-	int value = 0;
+	int value = 17;
 
 	bool result = search_linear(array, length, value);
 
 	print(result ? "Yes" : "No");
+	print("\n");
+
+	print("Index of first searching element - "
+		+ to_string(get_first_element(array, length, value)) + "\n");
+	
+	print("Index of last searching element - "
+		+ to_string(get_last_element(array, length, value)) + "\n");
+	
+	print("count of searching element is "
+		+ to_string(count_element(array, length, value)) + "\n");
+
+
+
+
 
 	return 0;
 }
